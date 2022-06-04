@@ -61,7 +61,7 @@ p, h1,h2,h3 {
     margin: 0;
 }
 
-.section-title {
+.section__title {
     margin-top: 0px;
 margin-bottom: 50px;
 
@@ -83,14 +83,14 @@ margin-bottom: 50px;
 
 }
 
-.card-set {
+.card__set {
     display: flex;
     flex-wrap:wrap;
     margin-left: -30px;
     margin-top: -30px;
 }
 
-.card-item {
+.card__item {
     margin-left: 30px;
     margin-top: 30px;
 }
@@ -164,7 +164,7 @@ margin-left: auto;
 
 
 .navigation__link,
-.contact-link {
+.contact__link {
 
     position: relative;
 color: var(--title-text-color);
@@ -208,7 +208,7 @@ font-weight: 500;
 
 
 /* контакт-нав */
-.contact-link
+.contact__link
 {
 
     color: var(--small-text-color);
@@ -218,8 +218,8 @@ font-weight: 500;
 
 .navigation__link:hover,
 .navigation__link:focus,
-.contact-link:hover,
-.contact-link:focus,
+.contact__link:hover,
+.contact__link:focus,
 .footer .contact-link:hover,
 .footer .contact-link:focus,
 .navigation__link--current {
@@ -262,7 +262,7 @@ margin: auto;
 
 }
 
-.hero-title {
+.hero__title {
 
     margin-top: 0;
     margin-bottom: 30px;
@@ -285,7 +285,7 @@ font-weight: 900;
 
 
 /* features */
-.feature-title {
+.feature__title {
  
     margin-top: 0px;
 margin-bottom: 10px;
@@ -295,7 +295,7 @@ margin-bottom: 10px;
     text-transform: uppercase;
 
 }
-.feature-text {
+.section__text {
     color: var(--small-text-color);
 
  
@@ -465,13 +465,13 @@ font-weight: 500;
 
 
 
-.picture-list {
+.picture__list {
  width: calc(100% / 3 - 30px);
  position: relative;
 }
 
 
-.new-text {
+.section__label {
         position: absolute;
             width: 370px;
             height: 70px;
@@ -567,7 +567,7 @@ font-weight: 500;
 
 
 
-.feature-list .item {
+.section__feature .item {
     width: calc(100% / 4 - 30px);
  
 }
@@ -578,7 +578,7 @@ font-weight: 500;
 
 
 
-.section-second {
+.section--second {
 padding-top: 0px;
    
 }
@@ -650,7 +650,7 @@ border-bottom-right-radius: 4px;
 
 
 
-.contact-icon {
+.contact__icon {
     margin-right: 10px;
     fill: #757575;
     transition-property: fill;
@@ -662,8 +662,8 @@ border-bottom-right-radius: 4px;
 
 
 
-.contact-link:hover .contact-icon,
-.contact-link:focus .contact-icon {
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
     fill: #2196F3;
 
 
@@ -675,8 +675,8 @@ border-bottom-right-radius: 4px;
 .icon-antenna,
 .icon-clock,
 .icon-computer,
-.icon-astronaut
-
+.icon-astronaut,
+.section__icon
 {
     border-radius: 4px;
     display: flex;
