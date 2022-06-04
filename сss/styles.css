@@ -560,7 +560,7 @@ font-weight: 500;
 
 .container__nav {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 
@@ -750,7 +750,7 @@ transition-property: border;
 
 
 
-.footer-title {
+.footer-form__title {
   display: block;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -989,7 +989,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(-50%, -50%) scale(0) rotate(120deg);
 }
 
-.modal-close-button {
+.modal__close-button {
     border: none;
     background-color: transparent;
     display: flex;
@@ -1009,7 +1009,7 @@ right: 8px;
 
 }
 
-.modal-close-icon {
+.modal__close-icon {
     fill: #000000;
 
 
@@ -1021,7 +1021,7 @@ transition-duration: var(--timing-duraction);
 transition-timing-function: var(--timing-function);
 }
 
-.modal-close-button:hover .modal-close-icon{
+.modal__close-button:hover .modal__close-icon{
   fill:  #2196F3;
 
 
@@ -1029,7 +1029,7 @@ transition-timing-function: var(--timing-function);
 }
 
 
-.form-text {
+.modal__form-text {
   
 margin-bottom: 12px;
 font-size: 20px;
@@ -1041,22 +1041,22 @@ font-weight: 700;
 
 
 
-.form-field {
+.modal__form-field {
     display: flex;
     flex-direction: column;
 position: relative;
 }
 
-.form-field:not(:last-of-type) {
+.modal__form-field:not(:last-of-type) {
     margin-bottom: 10px;
 }
 
 
-.form-field:last-of-type {
+.modal__form-field:last-of-type {
     margin-bottom: 20px;
 }
 
-.text-label {
+.modal__text-label {
     
     color: #757575;
  font-size: 12px;
@@ -1066,7 +1066,7 @@ line-height: 1.16;
 
 }
 
-.modal-input {
+.modal__input {
     padding-top: 12px;
         padding-bottom: 12px;
         padding-left: 42px;
@@ -1110,7 +1110,7 @@ line-height: 1.16;
 }
 
 
-.svg-modal-icon {
+.modal__icon-svg {
     position:absolute;
     top: 50%;
     left: 15px;
@@ -1121,16 +1121,16 @@ line-height: 1.16;
                 transition-timing-function: var(--timing-function);
 }
 
-.modal-input:focus,
-.modal-input:hover,
+.modal__input:focus,
+.modal__input:hover,
 .text-area:focus,
 .text-area:hover {
 
     border: 1px solid #2196f3;
 }
 
-.modal-input:focus+.svg-modal-icon,
-.modal-input:hover+.svg-modal-icon {
+.modal__input:focus+.modal__icon-svg,
+.modal__input:hover+.modal__icon-svg {
     fill: #2196f3;
 }
 
@@ -1219,7 +1219,7 @@ color: #FFFFFF;
 
 
 
-.form-footer {
+.footer-form {
     display: flex;
     flex-wrap: wrap;
 align-items: flex-end;
