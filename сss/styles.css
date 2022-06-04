@@ -239,7 +239,7 @@ color: var(--accent-color);
 
 
 
-.section-third {
+.section--third {
     color: var(--title-text-color);
 background-color: #F5F4FA;
 
@@ -409,7 +409,7 @@ margin-bottom: 4px;
    
 }
 
-.workers-names
+.section__names
 {
 font-size: 16px;
 font-weight: 500;
@@ -418,11 +418,11 @@ font-weight: 500;
     text-align: center;
 
     margin-top: 0px;
-    margin-bottom: 10;
+    margin-bottom: 10px;
 
 }
 
-.workers-text {
+.section__workers-text {
  color: var(--small-text-color);
         font-size: 16px;
         line-height: 1.18;  
@@ -493,17 +493,17 @@ font-weight: 500;
 
 
 
-.adress-link {
+.footer__address {
     color: rgba(255, 255, 255, 0.6);
     transition-property: color;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                 transition-duration: 1000ms;
 }
 
-.adress-link[target="_blank"] {color: #FFFFFF;}
+.footer__address[target="_blank"] {color: #FFFFFF;}
 
-.adress-link:hover, 
-.adress-link:focus {
+.footer__address:hover, 
+.footer__address:focus {
     color: #2196F3;
     
 }
@@ -597,7 +597,7 @@ width: calc(100% / 3 - 30px);
 
 
 
-.workers-item {
+.section__workers {
  width: calc(100% / 4 - 30px);
     background-color: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -637,14 +637,14 @@ border-bottom-right-radius: 4px;
 
 
 
-.profession-employee {
+.section__profession-employee {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.footer-contact-item:not(:last-child) {
+.footer__contact-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -704,10 +704,10 @@ margin-bottom: 30px;
 
 
 
-.svg-instagram,
-.svg-twitter,
-.svg-facebook,
-.svg-linkedin
+.cosial-media__svg,
+.cosial-media__svg,
+.cosial-media__svg,
+.cosial-media__svg
 {
     fill: #AFB1B8;
     transition-property: fill;
@@ -716,20 +716,20 @@ margin-bottom: 30px;
 
 }
 
-.footer .svg-instagram,
-.footer .svg-twitter,
-.footer .svg-facebook,
-.footer .svg-linkedin {
+.footer .cosial-media__svg,
+.footer .cosial-media__svg,
+.footer .cosial-media__svg,
+.footer .cosial-media__svg {
     fill: #FFFFFF;
 }
 
-.client-item {
+.section__client-item {
  width: calc(100% / 6 - 30px);
 }
 
 
 
-.link-brands {
+.section__brands {
     justify-content: center;
         align-items: center;
     display: flex;
@@ -761,7 +761,7 @@ transition-property: border;
     font-weight: 700;
 }
 
-   .footer-container {
+   .footer__container {
  align-items: baseline;
     
     display: flex;
@@ -785,14 +785,16 @@ transition-property: border;
 
 
 
-.social-media2:not(:last-child) {
+.cosial-media__social-media2:not(:last-child) {
     margin-right: 10px;
 }
 
 .link-instagram,
 .link-twitter,
 .link-facebook,
-.link-linkedin {
+.link-linkedin, 
+.cosial-media__link
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -814,7 +816,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .link-facebook:hover,
 .link-facebook:focus,
 .link-linkedin:hover,
-.link-linkedin:focus {
+.link-linkedin:focus, 
+.cosial-media__link:hover,
+.cosial-media__link:focus
+{
     background-color: #2196F3;
 
       
@@ -822,34 +827,45 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.link-instagram:hover .svg-instagram,
-.link-twitter:hover .svg-twitter,
-.link-facebook:hover .svg-facebook,
-.link-linkedin:hover .svg-linkedin,
-.link-instagram:focus .svg-instagram,
-.link-twitter:focus .svg-twitter,
-.link-facebook:focus .svg-facebook,
-.link-linkedin:focus .svg-linkedin {
+.link-instagram:hover .cosial-media__svg,
+.link-twitter:hover .cosial-media__svg,
+.link-facebook:hover .cosial-media__svg,
+.link-linkedin:hover .cosial-media__svg,
+.link-instagram:focus .cosial-media__svg,
+.link-twitter:focus .cosial-media__svg,
+.link-facebook:focus .cosial-media__svg,
+.link-linkedin:focus .cosial-media__svg, 
+.cosial-media__link:hover .cosial-media__svg,
+.cosial-media__link:focus .cosial-media__svg,
+.cosial-media__link:hover .cosial-media__svg,
+.cosial-media__link:focus .cosial-media__svg,
+.cosial-media__link:hover .cosial-media__svg,
+.cosial-media__link:focus .cosial-media__svg,
+.cosial-media__link:hover .cosial-media__svg,
+.cosial-media__link:focus .cosial-media__svg
+{
     fill: #ffffff;
 }
 
 
-.link-brands:hover .brands,
-.link-brands:focus .brands {
+
+
+.section__brands:hover .section__brands-svg,
+.section__brands:focus .section__brands-svg {
 
 fill: #2196F3
         
 }
 
-.link-brands:hover,
-.link-brands:focus {
+.section__brands:hover,
+.section__brands:focus {
 
 border: 1px solid #2196f3;
 
 }
 
 
-.brands {
+.section__brands-svg {
     fill: #AFB1B8;
     transition-property: fill;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
