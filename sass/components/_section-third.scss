@@ -1,0 +1,79 @@
+.section {
+
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.section--third {
+    color: $title-text-color;
+    background-color: #F5F4FA;
+}
+
+.section__names {
+    font-size: 16px;
+    font-weight: 500;
+
+    line-height: 1.18;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+.section__workers-text {
+    color: $small-text-color;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.cosial-media {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        &__social-media2:not(:last-child) {
+                margin-right: 10px;
+            }
+}
+
+.cosial-media__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition-timing-function: $timing-function;
+    transition-duration: $timing-duraction;
+
+    &:hover,
+    &:focus {
+            background-color: $accent-color;
+    }
+}
+
+.cosial-media__svg {
+    fill: #AFB1B8;
+    transition-property: fill;
+    transition-timing-function: $timing-function;
+    transition-duration: $timing-duraction;
+
+}
+
+
+.cosial-media__link {
+&:hover .cosial-media__svg,
+&:focus .cosial-media__svg {
+    fill: #ffffff;
+}
+}
