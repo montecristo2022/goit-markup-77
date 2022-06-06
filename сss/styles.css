@@ -765,7 +765,7 @@ transition-property: border;
     font-weight: 700;
 }
 
-   .footer__container {
+   .footer--container {
  align-items: baseline;
     
     display: flex;
@@ -1233,6 +1233,8 @@ align-items: flex-end;
 .svg-footer {
     margin-left: 10px;
 }
+
+
 
 /* лого шрифт Raleway вес 700*/
 /* шрифт везде кроме лого Roboto  */

@@ -1,6 +1,6 @@
 .section {
 
-    padding-top: 94px;
+  
     padding-bottom: 94px;
 
 }
@@ -41,6 +41,13 @@
         &__social-media2:not(:last-child) {
                 margin-right: 10px;
             }
+}
+
+.section__profession-employee {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .cosial-media__link {
