@@ -615,6 +615,8 @@ h3 {
 }
 
 .section__names {
+  font-family: 'Roboto';
+  font-style: normal;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -623,13 +625,25 @@ h3 {
   margin-bottom: 10px;
 }
 
+.section__workers {
+  width: calc(100% / 4 - 30px);
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
 .section__workers-text {
+  font-family: 'Roboto';
+  font-style: normal;
   color: #757575;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 16px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 .cosial-media {
@@ -823,6 +837,17 @@ h3 {
 
 .footer-input:hover, .footer-input:focus {
   border: 1px solid #2196F3;
+}
+
+.footer-form__svg {
+  margin-left: 10px;
+}
+
+.cosial-media__svg2 {
+  fill: #FFFFFF;
+  transition-property: fill;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
 }
 
 .backdrop {
