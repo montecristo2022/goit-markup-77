@@ -1,0 +1,84 @@
+.container__nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation__link--current::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px;
+    bottom: -1px;
+}
+
+.navigation__item {
+
+    margin-right: 50px;
+}
+
+.navigation__item:last-child {
+    margin-right: 0;
+}
+
+.navigation__link {
+        position: relative;
+            color: $title-text-color;
+        
+            font-weight: 500;
+        
+            line-height: 1.15;
+            letter-spacing: 0.02em;
+            display: flex;
+            align-items: center;
+        
+        
+            padding-top: 32px;
+            padding-bottom: 32px;
+        
+            transition-property: color;
+            transition-timing-function: $timing-function;
+            transition-duration: $timing-duraction;
+}
+
+
+.navigation__link--current::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    height: 4px;
+    background-color: $accent-color;
+    border-radius: 2px;
+    bottom: -1px;
+}
+
+.navigation__link--current,
+.navigation__link:hover,
+.navigation__link:focus {
+    color: $accent-color;
+}
+
+
+
+
+
+
+// &--current {
+//     color: $accent-color;
+// }
+
+// &:hover,
+// &:focus {
+//     color: $accent-color;
+// }
+
+// // почему не работает?

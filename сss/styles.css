@@ -78,6 +78,8 @@ margin-bottom: 50px;
 
 }
 
+
+
 .link {
     text-decoration: none;
 
@@ -111,7 +113,7 @@ margin-bottom: 50px;
     
 }
 
-.page-header .container__logo {
+.container__logo {
     margin-right: 93px;
 }
 
@@ -191,7 +193,7 @@ font-weight: 500;
 
 
 
-.navigation__link.navigation__link--current::after {
+.navigation__link--current::after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -289,7 +291,7 @@ font-weight: 900;
 
 
 /* features */
-.feature__title {
+.section__feature-title {
  
     margin-top: 0px;
 margin-bottom: 10px;
@@ -571,7 +573,7 @@ font-weight: 500;
 
 
 
-.section__feature .item {
+.section__item {
     width: calc(100% / 4 - 30px);
  
 }
