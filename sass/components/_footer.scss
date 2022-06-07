@@ -44,11 +44,16 @@ font-style: normal;
 
    .footer__address[target="_blank"] {
        color: #FFFFFF;
+
+    //    &:hover,
+    //    &:focus {
+    //        color: $accent-color;
+    //    }
    }
 
    .footer__address:hover,
    .footer__address:focus {
-       color: #2196F3;
+       color: $accent-color;
 
    }
 

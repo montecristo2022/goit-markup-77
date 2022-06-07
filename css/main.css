@@ -1078,14 +1078,14 @@ h3 {
   padding-bottom: 94px;
 }
 
+.portfolio-section__item {
+  margin-right: 8px;
+}
+
 .list-button {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.portfolio-section__item {
-  margin-right: 8px;
 }
 
 .portfolio-section__item:last-child {
@@ -1176,9 +1176,11 @@ h3 {
   text-decoration: none;
 }
 
-.card-set__wrap-link:hover,
-.card-set__wrap-link:focus {
+.card-set__wrap-link:hover, .card-set__wrap-link:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition-property: box-shadow;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media {
