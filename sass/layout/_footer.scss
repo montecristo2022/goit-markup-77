@@ -2,18 +2,25 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: $background-color;
+    .logo {
+        margin-bottom: 20px;
+    }
+    
+ .cosial-media__svg {
+     fill: #FFFFFF;
+ }
 }
 
-   .footer--container {
+   .footer__container {
        align-items: baseline;
        display: flex;
    }
 
-   .footer-item:not(:last-child) {
+   .footer__item:not(:last-child) {
        margin-right: 70px;
    }
 
-   .footer-item:last-child {
+   .footer__item:last-child {
        margin-left: auto;
    }
 
@@ -23,26 +30,16 @@
 
  
 
-   .footer__address {
+   .footer__contact-link {
        color: rgba(255, 255, 255, 0.6);
        transition-property: color;
        transition-timing-function: $timing-function;
        transition-duration: $timing-duraction;
-       text-decoration: none;
-
-
-    font-family: Roboto, sans-serif;
-font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
     
-
-    letter-spacing: 0.03em;
     
    }
 
-   .footer__address[target="_blank"] {
+   .footer__contact-link[target="_blank"] {
        color: #FFFFFF;
 
     //    &:hover,
@@ -51,40 +48,33 @@ font-style: normal;
     //    }
    }
 
-   .footer__address:hover,
-   .footer__address:focus {
+   .footer__contact-link:hover,
+   .footer__contact-link:focus {
        color: $accent-color;
 
    }
 
-   .container__accent--footer {
-       color: #FFFFFF;
-   }
-
-.container__logo--footer {
-    margin-bottom: 20px;
-}
 
 
-.footer-form__title {
+
+.footer__title {
     display: block;
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.14;
     margin-bottom: 20px;
-    margin-top: 0px;
     font-weight: 700;
 }
 
-.footer-form {
+.footer__form {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
 
 }
 
-.footer-input {
+.footer__input {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
@@ -105,17 +95,11 @@ border: 1px solid #2196F3;
 
 }
 
-.footer-form__svg {
+.footer__form-svg {
     margin-left: 10px;
 }
 
 
 
-.cosial-media__svg2 {
 
-    fill: #FFFFFF;
-   transition-property: fill;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   transition-duration: 1000ms;
-}
 

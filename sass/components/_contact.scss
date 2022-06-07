@@ -1,4 +1,4 @@
-.contact {
+.contact__list {
     display: flex;
     margin-left: auto;
 }
@@ -14,15 +14,7 @@
 .contact__link {
 
     position: relative;
-    color: $small-text-color;
 
-    font-weight: 500;
-font-family: 'Roboto';
-    font-style: normal;
-
-
-    line-height: 1.15;
-    letter-spacing: 0.02em;
     display: flex;
     align-items: center;
 text-decoration: none;

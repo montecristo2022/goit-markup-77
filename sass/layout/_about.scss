@@ -1,0 +1,33 @@
+
+
+.about {
+    padding-top: 0px;
+
+}
+
+
+
+
+
+
+
+.about__item {
+
+    position: relative;
+}
+
+.about__label {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(48, 48, 58, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
